@@ -7,11 +7,12 @@ public class Main {
 
         Book book1 = new Book("Евгений Онегин", 1833, author1);
         Book book2 = new Book("Герой нашего времени", 1850, author2);
+        Book book3 = new Book("Евгений Онегин", 1833, author1);
 
         book2.setDateOfPublication(1840);
 
-        System.out.println("book1 = " + book1.getDateOfPublication());
-        System.out.println("book2 = " + book2.getDateOfPublication());
+        System.out.println(book1);
+        System.out.println(book1.equals(book3));
 
 
     }
